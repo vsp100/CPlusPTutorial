@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+
+int posnum(int number)
+{
+    if(number >= 0)
+    {
+        std::cout<<number<<" is Positive num";
+    }
+    else
+    {
+        std::cout<<number<<" is Negative number";
+    }
+}
+
+
+int main()
+{
+  posnum(-1);
+    cout<<"\n";
+posnum(0);
+cout<<"\n";
+posnum(1);
+ return 0;
+}
+
