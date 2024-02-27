@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int num;
+    
+    cout<<"Enter a number to check odd or even";
+    cin>>num;
+    
+    cout<<"Entered num "<<num<< " is ";
+    
+    if(num % 2 == 0)
+    cout<<"Even number";
+    
+    else
+    cout<<"Odd number";
+    
+    return 0;
+}
